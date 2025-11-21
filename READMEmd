@@ -1,0 +1,2 @@
+in  "start": "concurrently \"node DanX.js\" \"node web/server.js\"" you can to just only run the bot not with the web by delete part \"node web/server.js\" to
+just this code in package.json "start": "concurrently \"node DanX.js\""
